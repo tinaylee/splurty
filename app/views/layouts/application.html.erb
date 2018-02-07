@@ -30,13 +30,27 @@
       </div>
     </header>
 
-   <hr />
+    <hr />
 
     <br class="clear" />
 
 
+    <div class="container">
+      <%= yield %>
+    </div>
 
-    <%= yield %>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+          <%= link_to "This isn't enough, I need more", "#", class:'next-quote' %>
+        </div>
+        <div class="col-6 footer-blurb">
+          Created in Seattle, WA by <a href="http://tinalee.getforge.io/"> Tina Lee</a><br />
+        </div>
+      </div>
+    </div>
+  
   </body>
 
 </html>
