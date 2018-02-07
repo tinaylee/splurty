@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
 
 .clear {
   clear: both;
@@ -37,7 +39,9 @@
 
 .links a {
   color: black;
+  font-family: 'Slabo 27px', serif;
   font-size: 25px;
+  font-weight: bold;
   border-bottom: 1px solid #dfdfdf;
 }
 
@@ -47,5 +51,18 @@ header {
 
 
 hr {
-  clear: both:
+  clear: both;
+}
+
+h1 {
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
+  font-size: 48px;
+
+
+}
+
+h2 {
+  font-family: 'alex_brushregular', cursive;
+  
 }
