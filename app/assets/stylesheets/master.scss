@@ -62,9 +62,18 @@ h1 {
 
 }
 
+.catchphrase {
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
 h2 {
   font-family: 'alex_brushregular', cursive;
   
+}
+
+h2 span {
+  color: #4C498A;
+  font-family: 'Slabo 27px', serif;
 }
 
 .about {
@@ -77,6 +86,7 @@ h2 {
 }
 
 .footer-blurb {
+
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-style: italic;
   text-align: right;
@@ -90,3 +100,18 @@ h2 {
 .logo:hover {
   text-decoration: none;
 }
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left
+  }
+}
+
+.modal {
+  font-family: 'Slabo 27px', serif
+}
+
+::selection {
+  background-color: #BA0719;
+}
+
